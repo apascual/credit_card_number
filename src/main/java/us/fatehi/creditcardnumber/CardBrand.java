@@ -45,7 +45,7 @@ public enum CardBrand
  MasterCard(Pattern
    .compile("^(5[1-5]|222[1-9]|22[3-9]|2[3-6]|27[0-1]|2720)\\d*$")),
  AmericanExpress(Pattern.compile("^3[47]\\d*$")),
- Maestro(Pattern.compile("^(5[06-9]|6[37])\\d*$"))
+ Maestro(Pattern.compile("^(5[06-9]|6[37])\\d*$")),
  // Diners Club card numbers begin with 300 through 305, 36 or 38.
  DinersClub(Pattern.compile("^3(?:0[0-5]|[68][0-9])[0-9]{4,}$")),
  Discover(Pattern.compile("^6(?:011|5[0-9]{2})[0-9]{3,}$")),

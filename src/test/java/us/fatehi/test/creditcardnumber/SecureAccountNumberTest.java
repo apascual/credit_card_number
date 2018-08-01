@@ -65,7 +65,7 @@ public class SecureAccountNumberTest
     final String rawAccountNumber = "573";
     final AccountNumber pan = new AccountNumber(rawAccountNumber);
     assertTrue("Should not pass Luhn check", !pan.passesLuhnCheck());
-    assertEquals(CardBrand.Unknown, pan.getCardBrand());
+    assertEquals(CardBrand.Maestro, pan.getCardBrand());
     assertEquals(MajorIndustryIdentifier.mii_5,
                  pan.getMajorIndustryIdentifier());
 
@@ -119,7 +119,7 @@ public class SecureAccountNumberTest
     final String rawAccountNumber = "573";
     final AccountNumber pan = new AccountNumber(rawAccountNumber);
     assertTrue("Should not pass Luhn check", !pan.passesLuhnCheck());
-    assertEquals(CardBrand.Unknown, pan.getCardBrand());
+    assertEquals(CardBrand.Maestro, pan.getCardBrand());
     assertEquals(MajorIndustryIdentifier.mii_5,
                  pan.getMajorIndustryIdentifier());
 
@@ -175,7 +175,7 @@ public class SecureAccountNumberTest
     final String rawAccountNumber = "573";
     final AccountNumber pan = new AccountNumber(rawAccountNumber);
     assertTrue("Should not pass Luhn check", !pan.passesLuhnCheck());
-    assertEquals(CardBrand.Unknown, pan.getCardBrand());
+    assertEquals(CardBrand.Maestro, pan.getCardBrand());
     assertEquals(MajorIndustryIdentifier.mii_5,
                  pan.getMajorIndustryIdentifier());
 
