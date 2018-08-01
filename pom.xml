@@ -12,11 +12,11 @@
   <packaging>jar</packaging>
   <name>Credit Card Number</name>
   <description>Credit Card Number is a library that can provide details of a bank issued credit card number. All classes are immutable and thread-safe. The standard `toString()` function formats data in a readable form.</description>
-  <url>https://github.com/sualeh/credit_card_number</url>
+  <url>https://github.com/apascual/credit_card_number</url>
   <scm>
-    <connection>scm:git:git@github.com:sualeh/credit_card_number.git</connection>
-    <developerConnection>scm:git:git@github.com:sualeh/credit_card_number.git</developerConnection>
-    <url>git@github.com:sualeh/credit_card_number.git</url>
+    <connection>scm:git:git@github.com:apascual/credit_card_number.git</connection>
+    <developerConnection>scm:git:git@github.com:apascual/credit_card_number.git</developerConnection>
+    <url>git@github.com:apascual/credit_card_number.git</url>
   </scm>
   <distributionManagement>
     <snapshotRepository>
